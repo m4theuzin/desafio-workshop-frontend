@@ -1,0 +1,73 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1  {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+}
+
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu li {
+    margin-left: 10px;
+   
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background: tomato;
+}
+
+.imagem{
+    position: absolute;
+    width: 1920px;
+    height: 749px;
+    left: 0px;
+    top: 220px;
+}
+
+.logo2{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1000px;
+    top: 900px;
+    background: url(instagram.png);}
+
+    .logo3{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: 900px;
+    top: 900px;
+    background: url(facebook.png);}
